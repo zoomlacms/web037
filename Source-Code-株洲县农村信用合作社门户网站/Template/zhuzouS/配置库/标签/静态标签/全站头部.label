@@ -1,0 +1,112 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>696</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="top"&gt;
+&lt;div id="logo"&gt;
+&lt;a href="/"&gt;&lt;img src="{$LogoUrl/}" alt="{$SiteName/}" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id="top_r"&gt;
+&lt;ul&gt;
+&lt;li id="language"&gt;&lt;span&gt;选择语言版本&gt;&lt;/span&gt;&lt;a href="/" id="ch"&gt;中文&lt;/a&gt;&lt;a href="javascript:void(0)" id="en"&gt;English&lt;/a&gt;&lt;/li&gt;
+&lt;li id="tel"&gt;400-888-3333&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--头部结束--&gt;
+&lt;div id="scolls"&gt;
+&lt;div id="nav_box"&gt;
+&lt;div id="nav"&gt;
+&lt;ul&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank"&gt;联社介绍&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出指定节点的文章列表_无时间" NodeID="1" TitleNum="30" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(2)/}" target="_blank"&gt;新闻中心&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出一级子栏目列表" ParentID="2" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(3)/}" target="_blank"&gt;产品服务&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出一级子栏目列表" ParentID="3" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(4)/}" target="_blank"&gt;学习园地&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出一级子栏目列表" ParentID="4" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(5)/}" target="_blank"&gt;农信文化&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出一级子栏目列表" ParentID="5" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(6)/}" target="_blank"&gt;政策法规&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出一级子栏目列表" ParentID="6" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(7)/}" target="_blank"&gt;文件中心&lt;/a&gt;&lt;/li&gt;
+&lt;li onMouseOver="onShow(this)" onMouseOut="onHide(this)"&gt;&lt;a href="{ZL:GetNodeLinkUrl(8)/}" target="_blank"&gt;贷款快速申请&lt;/a&gt;
+&lt;ul class="subnav"&gt;
+{ZL.Label id="输出一级子栏目列表" ParentID="8" ShowNum="10" /}
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Prompt/EmailSender.aspx" target="_blank"&gt;农信邮箱&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/guest" target="_blank"&gt;留言反馈&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;!--导航结束--&gt;
+&lt;script&gt;
+//检测头部固顶
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&amp;&amp;!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s&gt;H&amp;&amp;IO.fix||s&lt;=H&amp;&amp;!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]&gt;
+//二级下拉菜单
+function onShow(obj){
+	$(obj).find(".subnav").show();	
+}
+function onHide(obj){
+	$(obj).find("ul").hide();	
+}
+&lt;/script&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

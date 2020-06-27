@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Common_fcheck, App_Web_t42lnxf3" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

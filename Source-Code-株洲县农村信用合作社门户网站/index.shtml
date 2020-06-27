@@ -1,0 +1,433 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>株洲县农村信用合作联社_首页</title>
+<meta name="Keywords" content="株洲信用社,株洲县信用社,株洲农村信用社,株洲贷款,株洲金融,株洲银行,茶陵信用社,醴陵信用社">
+<meta name="Description" content="株洲县农村信用合作联社官网">
+<link href="/Template/zhuzouS/style/global.css" rel="stylesheet" type="text/css">
+<script src="/Template/zhuzouS/style/js/caifuc_01.js" type="text/javascript"></script>
+<script src="/Template/zhuzouS/style/js/caifuc_02.js" type="text/javascript"></script>
+<script src="/Template/zhuzouS/style/js/scrollDoor.js" type="text/javascript" ></script>
+<script type="text/javascript" src="/Template/zhuzouS/style/js/flv.js"></script>
+<script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload = function(){
+var SDmodel = new scrollDoor();
+SDmodel.sd(["n01","n02"],["v01","v02"],"sd01","sd02");
+}
+</script>
+<style>
+#nav .home a{ color:#fff;}
+</style>
+</head>
+<body>
+<div id="top">
+<div id="logo">
+<a href="/"><img src="/Template/zhuzouS/style/images/logo.png" alt="株洲县农村信用合作联社" /></a>
+</div>
+<div class="top_o">
+<form action="search/SearchList.aspx" method="get">
+<input name="keyword" type="text" placeholder="全站检索" id="TxtKeyword"/>
+<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" />
+</form>
+</div>
+<div id="top_r">
+<ul>
+<li id="language"><span>切换语言></span><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+<li id="tel">0731-27618647</li>
+</ul>
+</div>
+</div>
+<!--头部结束-->
+<div id="scolls">
+<div id="nav_box">
+<div id="nav">
+<ul>
+<li class="home"><a href="/">首页</a></li>
+<li class="menu1" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_1/Default.aspx" target="_blank">联社介绍</a>
+<ul class="subnav" style="width:600px; margin-left:-60px;">
+
+<li><a href="/Item/168.aspx" target="_blank">株洲县农村信用合作联社简介</a></li>
+
+<li><a href="/Item/170.aspx" target="_blank">联社班子成员</a></li>
+
+<li><a href="/Item/171.aspx" target="_blank">辖内网点</a></li>
+
+<li><a href="/Item/169.aspx" target="_blank">服务流程</a></li>
+
+<li><a href="/Item/101.aspx" target="_blank">董事长致词</a></li>
+
+<div class="clear"></div>
+</ul>
+</li>
+<li class="menu2" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_2/Default.aspx" target="_blank">新闻中心</a>
+<ul class="subnav" style="width:270px; ">
+
+<li>
+<a href="/Class_10/Default.aspx" target="_blank">联社要闻</a>
+</li>
+
+<li>
+<a href="/Class_11/Default.aspx" target="_blank">行业新闻</a>
+</li>
+
+<li>
+<a href="/Class_12/Default.aspx" target="_blank">基层快讯</a>
+</li>
+
+<div class="clear"></div>
+</ul>
+</li>
+<li class="menu3" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_3/Default.aspx" target="_blank">产品服务</a>
+<ul class="subnav" style="width:990px;">
+
+<li>
+<a href="/Class_13/Default.aspx" target="_blank">存款业务</a>
+</li>
+
+<li>
+<a href="/Class_14/Default.aspx" target="_blank">贷款业务</a>
+</li>
+
+<li>
+<a href="/Class_15/Default.aspx" target="_blank">农信银支付系统业务</a>
+</li>
+
+<li>
+<a href="/Class_16/Default.aspx" target="_blank">人行支付系统业务</a>
+</li>
+
+<li>
+<a href="/Class_17/Default.aspx" target="_blank">结算代理业务</a>
+</li>
+
+<li>
+<a href="/Class_18/Default.aspx" target="_blank">银行卡业务</a>
+</li>
+
+<li>
+<a href="/Class_19/Default.aspx" target="_blank">网上银行业务</a>
+</li>
+
+<li>
+<a href="/Class_20/Default.aspx" target="_blank">电子银行业务</a>
+</li>
+
+<li>
+<a href="/Class_21/Default.aspx" target="_blank">理财业务</a>
+</li>
+
+</ul>
+</li>
+<li class="menu4" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_4/Default.aspx" target="_blank">学习园地</a>
+<ul class="subnav" style="width:360px;">
+
+<li>
+<a href="/Class_22/Default.aspx" target="_blank">电脑常识</a>
+</li>
+
+<li>
+<a href="/Class_23/Default.aspx" target="_blank">精华文摘</a>
+</li>
+
+<li>
+<a href="/Class_24/Default.aspx" target="_blank">业务知识</a>
+</li>
+
+<li>
+<a href="/Class_25/Default.aspx" target="_blank">金融常识</a>
+</li>
+
+</ul>
+</li>
+<li class="menu5" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_5/Default.aspx" target="_blank">农信文化</a>
+<ul class="subnav" style="width:360px;">
+
+<li>
+<a href="/Class_26/Default.aspx" target="_blank">企业精神</a>
+</li>
+
+<li>
+<a href="/Class_27/Default.aspx" target="_blank">教育培训</a>
+</li>
+
+<li>
+<a href="/Class_28/Default.aspx" target="_blank">文化活动</a>
+</li>
+
+<li>
+<a href="/Class_29/Default.aspx" target="_blank">员工风采</a>
+</li>
+
+</ul>
+</li>
+<li class="menu6" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_6/Default.aspx" target="_blank">政策法规</a>
+<ul class="subnav" style="width:280px;">
+
+<li>
+<a href="/Class_30/Default.aspx" target="_blank">国家法律</a>
+</li>
+
+<li>
+<a href="/Class_31/Default.aspx" target="_blank">监管法规</a>
+</li>
+
+<li>
+<a href="/Class_32/Default.aspx" target="_blank">行业规章</a>
+</li>
+
+</ul>
+</li>
+<li class="menu7"><a href="/Class_7/Default.aspx" target="_blank">文件中心</a></li>
+<li class="menu8" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="/Class_8/Default.aspx" target="_blank">贷款快速申请</a>
+<ul class="subnav" style="width:250px;">
+
+<li>
+<a href="/Class_33/Default.aspx" target="_blank">个人贷款通道</a>
+</li>
+
+<li>
+<a href="/Class_34/Default.aspx" target="_blank">小微企业贷款通道</a>
+</li>
+
+</ul>
+</li>
+<li class="menu9"><a href="/Prompt/EmailSender.aspx" target="_blank">农信邮箱</a></li>
+<li class="menu10"><a href="/guest" target="_blank">留言反馈</a></li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div><!--导航结束-->
+<div id="flash">
+<ul>
+<li id="flash1">
+<a href="javascript:void(0)"><img src="/Template/zhuzouS/style/images/flash1.jpg" alt=""></a>
+</li>
+<li id="flash2" style="display:none;">
+<a href="javascript:void(0)"><img src="/Template/zhuzouS/style/images/flash2.jpg" alt=""></a>
+</li>
+<li id="flash3" style="display:none;">
+<a href="javascript:void(0)"><img src="/Template/zhuzouS/style/images/flash3.jpg" alt=""></a>
+</li>
+</ul>
+<DIV class="flash_bar">
+<DIV id="f1" class="dq" onClick="changeflash('1')"></DIV>
+<DIV id="f2" class="no" onClick="changeflash('2')"></DIV>
+<DIV id="f3" class="no" onClick="changeflash('3')"></DIV>
+</div>
+<div class="clear"></div>
+</div>
+<!--广告结束-->
+<div class="content">
+<div class="content_l">
+<div class="bank">
+<ul>
+<li id="person"><a href="/Class_16/Default.aspx" target="_blank">点击进入>></a></li>
+<li id="company"><a href="/Class_19/Default.aspx" target="_blank">点击进入>></a></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="video">
+<div class="content_title">视频中心</div>
+<script type="text/javascript" src="/Template/zhuzouS/style/js/flv.js"></script>
+
+<div class="video_l">
+<div id="player" class="playFlv"></div>
+<script type="text/javascript">
+	var s5 = new SWFObject("/Template/zhuzouS/style/swf/FlvPlayer201002.swf","playlist","248","170","7");
+	s5.addParam("allowfullscreen","true");
+	s5.addVariable("autostart","false");
+	s5.addVariable("image",'/Template/zhuzouS/style//images/video.jpg');
+	s5.addVariable("file",'/video/video.flv');
+	s5.addVariable("width","248");
+	s5.addVariable("height","170");
+    s5.write('player');
+</script>
+</div>
+<div class="clear"></div>
+</div>
+<div class="loans">
+<div class="content_title">贷款申请快速通道</div>
+<ul>
+<li><a href="/Class_33/Default.aspx" target="_blank">个人贷款通道</a></li>
+<li><a href="/Class_34/Default.aspx" target="_blank">企业贷款通道</a></li>
+</ul>
+</div>
+</div><!--内容左结束-->
+<div class="content_m">
+<div class="news">
+<div class="team_title"><span><a href="/Class_0/Default.aspx" target="_blank">更多>></a></span>新闻中心</div>
+<ul>
+
+</ul>
+</div>
+<div class="ad">
+<img src="/Template/zhuzouS/style/images/home_ad1.jpg" alt="" />
+</div>
+<div class="news">
+<div class="team_title"><span><a href="/Class_10/Default.aspx" target="_blank">更多>></a></span>联社要闻</div>
+<ul>
+
+<li><span>2015-07-24</span><a href="/Item/184.aspx" title="简讯：株洲县联社获稽核内审工作质量评审一等奖" target="_self" style="color:rgb(255, 0, 0);background:transparent;">简讯：株洲县联社获稽核内审工作质量评审一等奖</a></li>
+
+<li><span>2015-06-09</span><a href="/Item/185.aspx" title="株洲县联社一季度存款增长实现“开门红”" target="_self" style="">株洲县联社一季度存款增长实现“开门红”</a></li>
+
+<li><span>2015-06-09</span><a href="/Item/183.aspx" title="简讯： 株洲县联社冠名“农信杯”五四青年合唱比赛" target="_self" style="">简讯： 株洲县联社冠名“农信杯”五四青年合唱比赛</a></li>
+
+<li><span>2015-06-09</span><a href="/Item/182.aspx" title="简讯：中国人民银行征信管理局李斌副局长深入株洲县联社调研指导工作" target="_self" style="">简讯：中国人民银行征信管理局李斌副局长深入株洲县联社调研指导工</a></li>
+
+<li><span>2015-06-09</span><a href="/Item/181.aspx" title="再动员 再加压 再升温" target="_self" style="">再动员 再加压 再升温</a></li>
+
+</ul>
+</div>
+<div class="bank_info">
+<div class="team_title" id="id_bank">活动中心<div class="clear"></div></div>
+<div class="bank_title">
+<div class="clear"></div>
+
+<li><a href="/Item/145.aspx" title="夏秋感恩季" target="0" style="">夏秋感恩季</a></li>
+
+
+<!--
+<ul>
+<li id="n01" class="sd01"><strong>个人业务</strong></li>
+<li id="n02" class="sd02"><strong>公司业务</strong></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div id="v01">
+	<ul>
+	<li><a href="/Class_13/Default.aspx" target="_blank">个人存款</a></li>
+    <li><a href="/Class_14/Default.aspx" target="_blank">个人贷款</a></li>
+    <li><a href="/Class_18/Default.aspx" target="_blank">银行卡</a></li>
+    <li><a href="/Class_17/Default.aspx" target="_blank">中间业务</a></li>
+	</ul>
+</div>
+<div id="v02" class="hidden">
+	<ul>
+	<li><a href="/Class_13/Default.aspx" target="_blank">公司存款</a></li>
+    <li><a href="/Class_14/Default.aspx" target="_blank">公司贷款</a></li>
+    <li><a href="/Class_18/Default.aspx" target="_blank">公司银行卡</a></li>
+    <li><a href="/Class_21/Default.aspx" target="_blank">公司业务</a></li>
+	</ul>
+-->
+</div>
+<div class="clear"></div>
+</div><!--bank_info end-->
+</div><!--内容中结束-->
+<div class="content_r">
+<div class="product_info">
+<ul id="pub_slideplay">
+
+<li>
+<a href="/Item/149.aspx" target="_blank" title="中层干部来培训，绽放农信新活力——株洲县农村信用合作社中层人员专题培训"><img src="/UploadFiles/image/20141030/6355026139765199563050421.jpg" alt="中层干部来培训，绽放农信新活力——株洲县农村信用合作社中层人员专题培训"></a>
+</li>
+
+<li>
+<a href="/Item/148.aspx" target="_blank" title="情系双节，关爱送老人"><img src="/UploadFiles/image/20141024/6354974061262264558043870.png" alt="情系双节，关爱送老人"></a>
+</li>
+
+<li>
+<a href="/Item/147.aspx" target="_blank" title="吹响宣传冲锋号，参展房车交易会"><img src="/UploadFiles/image/20141024/6354974013408480041671652.jpg" alt="吹响宣传冲锋号，参展房车交易会"></a>
+</li>
+
+<li>
+<a href="/Item/146.aspx" target="_blank" title="金融知识宣传月活动"><img src="/UploadFiles/image/20141024/6354973916625460963048822.jpg" alt="金融知识宣传月活动"></a>
+</li>
+
+
+</ul>
+</div>
+<div class="mail">
+<a href="mailto:zzxls_bgs@163.com" target="_blank"><img src="/Template/zhuzouS/style/images/mail1.jpg" alt="投诉信箱" /></a>
+<a id="mail2" href="mailto:zzxls_bgs@163.com" target="_blank"><img src="/Template/zhuzouS/style/images/mail2.jpg" alt="举报信箱" /></a>
+</div>
+<div class="finance">
+<div class="content_title"><span><a href="/Class_37/Default.aspx" target="_blank">More>></a></span>产品宣传</div>
+<ul>
+
+<li><a href="/Item/144.aspx" target="_blank">银行卡知识</a></li>
+
+<li><a href="/Item/143.aspx" target="_blank">手机银行宣传折页</a></li>
+
+<li><a href="/Item/142.aspx" target="_blank">手机银行</a></li>
+
+<li><a href="/Item/141.aspx" target="_blank">人民币指南</a></li>
+
+<li><a href="/Item/140.aspx" target="_blank">了解银行理财</a></li>
+
+</ul>
+<div class="clear"></div>
+</div>
+</div><!--内容右结束-->
+<div class="clear"></div>
+</div>
+<div class="footer">
+<a href="/" target="_blank">网站首页</a> | <a href="/Item/102.aspx" target="_blank">网站声明</a> | <a href="/Item/103.aspx" target="_blank">联系我们</a> | <a href="/Class_36/Default.aspx" target="_blank">友情链接</a> | <a href="javascript:void(0)" onClick="javascript:window.external.addFavorite('http://www.zzxls.cn/','株洲县信用社');">加入收藏</a>
+
+<p>Copyright&copy;2014 All rights reserved 株洲县农村信用社版权所有 
+ 地址:株洲市株洲县渌口镇向阳北路6号 <br/>服务电话：0731-27618647
+湘ICP备13012049号 技术支持:<a href="http://www.hx008.com/" target="_blank">华夏互联hx008.com</a></p>
+
+</div>
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+<script type="text/javascript">new dk_slideplayer("#pub_slideplay",{width:"240px",height:"210px",fontsize:"12px",time:"5000"});</script>
+<script>
+//检测头部固顶
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+//二级下拉菜单
+function onShow(obj){
+	$(obj).find(".subnav").show();	
+}
+function onHide(obj){
+	$(obj).find("ul").hide();	
+}
+//广告轮换效果
+var currentindex=1;
+$("#flashBg").css("background-color",$("#flash1").attr("name"));
+function changeflash(i) {	
+currentindex=i;
+for (j=1;j<=3;j++){
+if (j==i) 
+{
+$("#flash"+j).fadeIn("normal");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("dq");
+$("#bannerbg").css("background-color",$("#flash"+j).attr("name"));
+}
+else
+{$("#flash"+j).css("display","none");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("no");}
+}}
+function startAm(){
+timerID = setInterval("timer_tick()",5000);
+}
+function stopAm(){
+clearInterval(timerID);
+}
+function timer_tick() {
+currentindex=currentindex>=3?1:currentindex+1;
+changeflash(currentindex);}
+$(document).ready(function(){
+$(".flash_bar div").mouseover(function(){stopAm();}).mouseout(function(){startAm();});
+startAm();
+});  
+</script>
+</body>
+</html>

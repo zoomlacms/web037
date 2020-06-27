@@ -1,0 +1,280 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$SiteName/}_首页</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css">
+<script src="{$CssDir/}js/caifuc_01.js" type="text/javascript"></script>
+<script src="{$CssDir/}js/caifuc_02.js" type="text/javascript"></script>
+<script src="{$CssDir/}js/scrollDoor.js" type="text/javascript" ></script>
+<script type="text/javascript" src="{$CssDir/}js/flv.js"></script>
+<script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload = function(){
+var SDmodel = new scrollDoor();
+SDmodel.sd(["n01","n02"],["v01","v02"],"sd01","sd02");
+}
+</script>
+<style>
+#nav .home a{ color:#fff;}
+</style>
+</head>
+<body>
+<div id="top">
+<div id="logo">
+<a href="/"><img src="{$LogoUrl/}" alt="{$SiteName/}" /></a>
+</div>
+<div class="top_o">
+<form action="search/SearchList.aspx" method="get">
+<input name="keyword" type="text" placeholder="全站检索" id="TxtKeyword"/>
+<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" />
+</form>
+</div>
+<div id="top_r">
+<ul>
+<li id="language"><span>切换语言></span>{ZL:Big5()/}</li>
+<li id="tel">0731-27618647</li>
+</ul>
+</div>
+</div>
+<!--头部结束-->
+<div id="scolls">
+<div id="nav_box">
+<div id="nav">
+<ul>
+<li class="home"><a href="/">首页</a></li>
+<li class="menu1" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank">联社介绍</a>
+<ul class="subnav" style="width:600px; margin-left:-60px;">
+{ZL.Label id="输出指定节点的文章列表_排序" NodeID="1" TitleNum="30" ShowNum="10" /}
+<div class="clear"></div>
+</ul>
+</li>
+<li class="menu2" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(2)/}" target="_blank">新闻中心</a>
+<ul class="subnav" style="width:270px; ">
+{ZL.Label id="输出一级子栏目列表" ParentID="2" ShowNum="10" /}
+<div class="clear"></div>
+</ul>
+</li>
+<li class="menu3" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(3)/}" target="_blank">产品服务</a>
+<ul class="subnav" style="width:990px;">
+{ZL.Label id="输出一级子栏目列表" ParentID="3" ShowNum="9" /}
+</ul>
+</li>
+<li class="menu4" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(4)/}" target="_blank">学习园地</a>
+<ul class="subnav" style="width:360px;">
+{ZL.Label id="输出一级子栏目列表" ParentID="4" ShowNum="10" /}
+</ul>
+</li>
+<li class="menu5" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(5)/}" target="_blank">农信文化</a>
+<ul class="subnav" style="width:360px;">
+{ZL.Label id="输出一级子栏目列表" ParentID="5" ShowNum="10" /}
+</ul>
+</li>
+<li class="menu6" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(6)/}" target="_blank">政策法规</a>
+<ul class="subnav" style="width:280px;">
+{ZL.Label id="输出一级子栏目列表" ParentID="6" ShowNum="10" /}
+</ul>
+</li>
+<li class="menu7"><a href="{ZL:GetNodeLinkUrl(7)/}" target="_blank">文件中心</a></li>
+<li class="menu8" onMouseOver="onShow(this)" onMouseOut="onHide(this)"><a href="{ZL:GetNodeLinkUrl(8)/}" target="_blank">贷款快速申请</a>
+<ul class="subnav" style="width:250px;">
+{ZL.Label id="输出一级子栏目列表" ParentID="8" ShowNum="10" /}
+</ul>
+</li>
+<li class="menu9"><a href="/Prompt/EmailSender.aspx" target="_blank">农信邮箱</a></li>
+<li class="menu10"><a href="/guest" target="_blank">留言反馈</a></li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div><!--导航结束-->
+<div id="flash">
+<ul>
+<li id="flash1">
+<a href="javascript:void(0)"><img src="{$CssDir/}images/flash1.jpg" alt=""></a>
+</li>
+<li id="flash2" style="display:none;">
+<a href="javascript:void(0)"><img src="{$CssDir/}images/flash2.jpg" alt=""></a>
+</li>
+<li id="flash3" style="display:none;">
+<a href="javascript:void(0)"><img src="{$CssDir/}images/flash3.jpg" alt=""></a>
+</li>
+</ul>
+<DIV class="flash_bar">
+<DIV id="f1" class="dq" onClick="changeflash('1')"></DIV>
+<DIV id="f2" class="no" onClick="changeflash('2')"></DIV>
+<DIV id="f3" class="no" onClick="changeflash('3')"></DIV>
+</div>
+<div class="clear"></div>
+</div>
+<!--广告结束-->
+<div class="content">
+<div class="content_l">
+<div class="bank">
+<ul>
+<li id="person"><a href="{ZL:GetNodeLinkUrl(16)/}" target="_blank">点击进入>></a></li>
+<li id="company"><a href="{ZL:GetNodeLinkUrl(19)/}" target="_blank">点击进入>></a></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="video">
+<div class="content_title">视频中心</div>
+<script type="text/javascript" src="{$CssDir/}js/flv.js"></script>
+
+<div class="video_l">
+<div id="player" class="playFlv"></div>
+<script type="text/javascript">
+	var s5 = new SWFObject("{$CssDir/}swf/FlvPlayer201002.swf","playlist","248","170","7");
+	s5.addParam("allowfullscreen","true");
+	s5.addVariable("autostart","false");
+	s5.addVariable("image",'{$CssDir/}/images/video.jpg');
+	s5.addVariable("file",'/video/video.flv');
+	s5.addVariable("width","248");
+	s5.addVariable("height","170");
+    s5.write('player');
+</script>
+</div>
+<div class="clear"></div>
+</div>
+<div class="loans">
+<div class="content_title">贷款申请快速通道</div>
+<ul>
+<li><a href="{ZL:GetNodeLinkUrl(33)/}" target="_blank">个人贷款通道</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(34)/}" target="_blank">企业贷款通道</a></li>
+</ul>
+</div>
+</div><!--内容左结束-->
+<div class="content_m">
+<div class="news">
+<div class="team_title"><span><a href="{ZL:GetNodeLinkUrl(9)/}" target="_blank">更多>></a></span>新闻中心</div>
+<ul>
+{ZL.Label id="输出指定节点标题_带时间属性" NodeID="9" TitleNum="62" ShowNum="5" /}
+</ul>
+</div>
+<div class="ad">
+<img src="{$CssDir/}images/home_ad1.jpg" alt="" />
+</div>
+<div class="news">
+<div class="team_title"><span><a href="{ZL:GetNodeLinkUrl(10)/}" target="_blank">更多>></a></span>联社要闻</div>
+<ul>
+{ZL.Label id="输出指定节点标题_带时间属性" NodeID="10" TitleNum="62" ShowNum="5" /}
+</ul>
+</div>
+<div class="bank_info">
+<div class="team_title" id="id_bank">活动中心<div class="clear"></div></div>
+<div class="bank_title">
+<div class="clear"></div>
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="38" TitleNum="62" ShowNum="5" /}
+
+<!--
+<ul>
+<li id="n01" class="sd01"><strong>个人业务</strong></li>
+<li id="n02" class="sd02"><strong>公司业务</strong></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div id="v01">
+	<ul>
+	<li><a href="{ZL:GetNodeLinkUrl(13)/}" target="_blank">个人存款</a></li>
+    <li><a href="{ZL:GetNodeLinkUrl(14)/}" target="_blank">个人贷款</a></li>
+    <li><a href="{ZL:GetNodeLinkUrl(18)/}" target="_blank">银行卡</a></li>
+    <li><a href="{ZL:GetNodeLinkUrl(17)/}" target="_blank">中间业务</a></li>
+	</ul>
+</div>
+<div id="v02" class="hidden">
+	<ul>
+	<li><a href="{ZL:GetNodeLinkUrl(13)/}" target="_blank">公司存款</a></li>
+    <li><a href="{ZL:GetNodeLinkUrl(14)/}" target="_blank">公司贷款</a></li>
+    <li><a href="{ZL:GetNodeLinkUrl(18)/}" target="_blank">公司银行卡</a></li>
+    <li><a href="{ZL:GetNodeLinkUrl(21)/}" target="_blank">公司业务</a></li>
+	</ul>
+-->
+</div>
+<div class="clear"></div>
+</div><!--bank_info end-->
+</div><!--内容中结束-->
+<div class="content_r">
+<div class="product_info">
+<ul id="pub_slideplay">
+{ZL.Label id="首页行业新闻图片轮播列表" NodeID="2" ShowNum="5" /}
+</ul>
+</div>
+<div class="mail">
+<a href="mailto:zzxls_bgs@163.com" target="_blank"><img src="{$CssDir/}images/mail1.jpg" alt="投诉信箱" /></a>
+<a id="mail2" href="mailto:zzxls_bgs@163.com" target="_blank"><img src="{$CssDir/}images/mail2.jpg" alt="举报信箱" /></a>
+</div>
+<div class="finance">
+<div class="content_title"><span><a href="{ZL:GetNodeLinkUrl(37)/}" target="_blank">More>></a></span>产品宣传</div>
+<ul>
+{ZL.Label id="输出指定节点的文章列表_无时间" NodeID="37" TitleNum="30" ShowNum="5" /}
+</ul>
+<div class="clear"></div>
+</div>
+</div><!--内容右结束-->
+<div class="clear"></div>
+</div>
+<div class="footer">
+<a href="/" target="_blank">网站首页</a> | <a href="{ZL:GetInfoUrl(102)/}" target="_blank">网站声明</a> | <a href="{ZL:GetInfoUrl(103)/}" target="_blank">联系我们</a> | <a href="{ZL:GetNodeLinkUrl(36)/}" target="_blank">友情链接</a> | <a href="javascript:void(0)" onClick="javascript:window.external.addFavorite('http://www.zzxls.cn/','株洲县信用社');">加入收藏</a>
+{$Copyright/}
+</div>
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+<script type="text/javascript">new dk_slideplayer("#pub_slideplay",{width:"240px",height:"210px",fontsize:"12px",time:"5000"});</script>
+<script>
+//检测头部固顶
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+//二级下拉菜单
+function onShow(obj){
+	$(obj).find(".subnav").show();	
+}
+function onHide(obj){
+	$(obj).find("ul").hide();	
+}
+//广告轮换效果
+var currentindex=1;
+$("#flashBg").css("background-color",$("#flash1").attr("name"));
+function changeflash(i) {	
+currentindex=i;
+for (j=1;j<=3;j++){
+if (j==i) 
+{
+$("#flash"+j).fadeIn("normal");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("dq");
+$("#bannerbg").css("background-color",$("#flash"+j).attr("name"));
+}
+else
+{$("#flash"+j).css("display","none");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("no");}
+}}
+function startAm(){
+timerID = setInterval("timer_tick()",5000);
+}
+function stopAm(){
+clearInterval(timerID);
+}
+function timer_tick() {
+currentindex=currentindex>=3?1:currentindex+1;
+changeflash(currentindex);}
+$(document).ready(function(){
+$(".flash_bar div").mouseover(function(){stopAm();}).mouseout(function(){startAm();});
+startAm();
+});  
+</script>
+</body>
+</html>

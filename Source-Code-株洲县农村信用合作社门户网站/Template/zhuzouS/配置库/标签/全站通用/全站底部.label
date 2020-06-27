@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>697</LabelID>
+    <LabelName>全站底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="footer"&gt;
+&lt;a href="/" target="_blank"&gt;网站首页&lt;/a&gt; | &lt;a href="{ZL:GetInfoUrl(102)/}" target="_blank"&gt;网站声明&lt;/a&gt; | &lt;a href="{ZL:GetInfoUrl(103)/}" target="_blank"&gt;联系我们&lt;/a&gt; | &lt;a href="{ZL:GetNodeLinkUrl(36)/}" target="_blank"&gt;友情链接&lt;/a&gt; | &lt;a href="javascript:void(0)" onClick="javascript:window.external.addFavorite('http://www.zzxls.cn/','株洲县信用社');"&gt;加入收藏&lt;/a&gt;
+{$Copyright/}
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>
